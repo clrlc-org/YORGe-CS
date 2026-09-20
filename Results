@@ -1,0 +1,19 @@
+## YorGe-CS Results
+
+All results evaluated on the shared 201-sentence YorGe-CS test set.
+
+| Model                | Setting   | BLEU  | chrF++ | METEOR | BERTScore F1 |
+|-----------------------|-----------|-------|--------|--------|--------------|
+| NLLB-200-3.3B         | Zero-shot | 21.56 | 48.98  | 0.5519 | 0.9280       |
+| NLLB-200-3.3B         | LoRA      | 80.91 | 89.76  | 0.9235 | 0.9868       |
+| M2M-100-1.2B          | Zero-shot | 6.26  | 29.21  | 0.2501 | 0.8761       |
+| M2M-100-1.2B          | LoRA      | 81.08 | 88.01  | 0.8947 | 0.9834       |
+| Qwen2.5-3B            | Zero-shot | 9.80  | 35.66  | 0.2862 | 0.9024       |
+| Qwen2.5-3B            | Few-shot  | 19.91 | 44.89  | 0.4237 | 0.9263       |
+| Qwen2.5-3B            | LoRA      | 81.64 | 88.41  | 0.8861 | 0.9836       |
+| Aya-23-8B             | Zero-shot | 5.91  | 29.60  | 0.2004 | 0.8995       |
+| Aya-23-8B             | Few-shot  | 15.27 | 37.64  | 0.3403 | 0.9040       |
+| Aya-23-8B             | LoRA      | 14.45 | 61.02  | 0.8294 | 0.9673       |
+| Llama-3-8B-Instruct   | Zero-shot | 24.53 | 48.36  | 0.4888 | 0.9351       |
+| Llama-3-8B-Instruct   | Few-shot  | 34.24 | 57.77  | 0.6143 | 0.9478       |
+| Llama-3-8B-Instruct   | LoRA      | 85.97 | 91.56  | 0.9262 | 0.9883       |
